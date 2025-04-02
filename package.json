@@ -1,0 +1,27 @@
+{
+  "name": "rodicake_nextjs_ready_for_vercel",
+  "version": "1.0.0",
+  "main": "next.config.js",
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruxy17/rodicake-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruxy17/rodicake-website/issues"
+  },
+  "homepage": "https://github.com/Ruxy17/rodicake-website#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
