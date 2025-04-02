@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 
 export default function About() {
@@ -6,12 +7,15 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-pink-100 py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-pink-800 mb-6">About Rodicake</h1>
-          <p className="text-lg text-pink-700 max-w-3xl mx-auto">
-            Discover the story behind our passion for creating delicious homemade cakes that bring joy to your special moments.
+          <h1 className="text-4xl font-bold text-pink-700">Sobre a Rodicake</h1>
+          <p className="mt-4 text-lg text-gray-700">
+            Criamos bolos artesanais com amor, detalhe e sabor!
           </p>
         </div>
       </section>
+    </div>
+  );
+}
 
       {/* Our Story Section */}
       <section className="py-16 bg-white">
